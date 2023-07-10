@@ -161,3 +161,12 @@ label {
     #fake-map {
         width: 100%;
     }
+
+    #g {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 2em;
+    }
