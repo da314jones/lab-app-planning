@@ -60,17 +60,17 @@ h4 {
 
 .div5 {
   display: inline;
-  position: absolute;
-  bottom: 160px;
+  position: relative;
   width: 80%;
+  border: 2px solid black;
 }
 
 input {
-  position: absolute;
-  right: -23%;
-}
+  position: relative;
+  max-width: 70%;
+} 
 
-label {
+/* label {
   position: relative;
   left: 20px;
 }
@@ -83,7 +83,7 @@ label {
 #location {
   position: relative;
   left: 10px;
-}
+} */ 
 
 #fake-map {
   width: 100%;
@@ -105,7 +105,7 @@ h2 {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
-
+/* 
 .div1 {
   grid-area: 1 / 1 / 2 / 5;
 }
@@ -132,4 +132,4 @@ h2 {
 }
 .div9 {
   grid-area: 10 / 1 / 11 / 5;
-}
+} */
